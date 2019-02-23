@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Style link -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <!-- Bootstrap 4 Icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hacktiv8 Jogja</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Hacktiv<span>.</span>8</h1>
+        </div>
+        <div class="header-nav">
+            <ul class="list-nav">
+                <li><a href="index.html">Exercise 1</a></li>
+                <li class="active" style="background-color: #8583e1"><a href="#">Exercise 2</a></li>
+                <li><a href="#">Exercise 3</a></li>
+                <li><a href="#">Exercise 4</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="left-site">
+            <div class="general-info-image">
+                <img src="IMG-01.png" alt="" class="img">
+            </div>
+            <div class="general-info-content">
+                <div class="general-info-title">General Information</div>
+                <ul class="general-info-list">
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                        <div class="general_info_text">Name: <span>Zufar Taqiuddin</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                        <div class="general_info_text">Location: <span>Special Region of Yogyakarta</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                        <div class="general_info_text">Date of Birth: <span>August 28, 1999</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                        <div class="general_info_text">Email: mrrafuzz.co@gmail.com</div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                        <div class="general_info_text">Contact Person: +62 812 2855 5584</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-site">
+            <div class="content-title">Calculator with JavaScript</div>
+            <div class="content-name"><b>Exercise 2</b></div>
+            <div class="content-row-2">
+                <div class="content-row-item">
+                    <div class="content-desc-title">Description</div>
+                    <p>
+                        Buatlah sebuah page yang berfungsi sebagai kalkulator. 
+                        Buatlah semenarik mungkin!! Jangan lupa untuk menggunakan CSS 
+                        dan upload halaman tersebut ke Github dengan nama repository "Exercise 2".
+                        <br>
+                        HINT Kalian dapat menggunakan function parseInt untuk mengubah string menjadi integer.
+                    </p>
+                </div>
+                <div class="content-row-item">
+                    <div class="content-desc-title">Calculator</div>
+                    <table cellspacing="0">
+                        <tr>
+                            <td colspan="4" id="inputLabel">0</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><button onclick="pushBtn(this)">AC</button></td>
+                            <td><button onclick="pushBtn(this)">/</button></td>
+                        </tr>
+                        <tr>
+                            <td><button onclick="pushBtn(this)">1</button></td>
+                            <td><button onclick="pushBtn(this)">2</button></td>
+                            <td><button onclick="pushBtn(this)">3</button></td>
+                            <td><button onclick="pushBtn(this)">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button onclick="pushBtn(this)">4</button></td>
+                            <td><button onclick="pushBtn(this)">5</button></td>
+                            <td><button onclick="pushBtn(this)">6</button></td>
+                            <td><button onclick="pushBtn(this)">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button onclick="pushBtn(this)">7</button></td>
+                            <td><button onclick="pushBtn(this)">8</button></td>
+                            <td><button onclick="pushBtn(this)">9</button></td>
+                            <td><button onclick="pushBtn(this)">*</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button onclick="pushBtn(this)">0</button></td>
+                            <td><button onclick="pushBtn(this)">.</button></td>
+                            <td><button onclick="pushBtn(this)">=</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Copyright ©2019 All rights reserved | Created by Zufar Taqiuddin</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
